@@ -37,6 +37,4 @@ public class Piece : MonoBehaviour {
     {
         return val * 2;
     }
-
-    public void CommitTest() { }
 }
