@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\Hayashi\Documents\New Unity Project\ClassLibrary2\bin\Debug\ClassLibrary2.dll" total="3" errors="3" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2016-03-30" time="17:45:48">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="HAYASHI-PC" user="Hayashi" user-domain="Hayashi-PC" />
+  <culture-info current-culture="ja-JP" current-uiculture="ja-JP" />
+  <test-suite type="Assembly" name="C:\Users\Hayashi\Documents\New Unity Project\ClassLibrary2\bin\Debug\ClassLibrary2.dll" executed="True" result="Failure" success="False" time="0.430" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="ClassLibrary2" executed="True" result="Failure" success="False" time="0.420" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="ControllerTest" executed="True" result="Failure" success="False" time="0.420" asserts="0">
+            <results>
+              <test-suite type="ParameterizedTest" name="SwapTest" executed="True" result="Failure" success="False" time="0.420" asserts="0">
+                <results>
+                  <test-case name="ClassLibrary2.ControllerTest.SwapTest(1,2)" executed="True" result="Error" success="False" time="0.160" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.Security.SecurityException : ECall メソッドをシステム モジュールにパッケージ化しなければなりません。]]></message>
+                      <stack-trace><![CDATA[場所 Controller..ctor()
+場所 ClassLibrary2.ControllerTest.SwapTest(Int32 expectedA, Int32 a) 場所 C:\Users\Hayashi\Documents\New Unity Project\ClassLibrary2\Class1.cs:行 18
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ClassLibrary2.ControllerTest.SwapTest(2,4)" executed="True" result="Error" success="False" time="0.010" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.Security.SecurityException : ECall メソッドをシステム モジュールにパッケージ化しなければなりません。]]></message>
+                      <stack-trace><![CDATA[場所 Controller..ctor()
+場所 ClassLibrary2.ControllerTest.SwapTest(Int32 expectedA, Int32 a) 場所 C:\Users\Hayashi\Documents\New Unity Project\ClassLibrary2\Class1.cs:行 18
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                  <test-case name="ClassLibrary2.ControllerTest.SwapTest(3,6)" executed="True" result="Error" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[System.Security.SecurityException : ECall メソッドをシステム モジュールにパッケージ化しなければなりません。]]></message>
+                      <stack-trace><![CDATA[場所 Controller..ctor()
+場所 ClassLibrary2.ControllerTest.SwapTest(Int32 expectedA, Int32 a) 場所 C:\Users\Hayashi\Documents\New Unity Project\ClassLibrary2\Class1.cs:行 18
+]]></stack-trace>
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
